@@ -1,0 +1,98 @@
+.joblist {
+    margin: 5% 10%;
+}
+
+.lineborder {
+  border-bottom: 1px solid #959492;
+  margin: 10%;
+}
+
+.redborder_title {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: .2vw 0% .2vw 1vw;
+  }
+
+  .motto {
+    font-size: 12px;
+    font-style: italic;
+    color: #81807F;
+  }
+
+  .time {
+    font-size: 16px;
+    color: #81807F;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .description, .list {
+    color: #81807F;
+    font-size: 12px;
+    line-height: 2;
+  }
+
+  .title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .list {
+    margin-left: 30px;
+  }
+
+  .company_image {
+    width: 415px;
+  }
+
+  .image {
+    filter: grayscale();
+    opacity: 0.2;
+    width: 415px;
+    position: absolute;
+    right: 10%;
+    margin-top: -40px; /*use to adjust logo position from line divider
+    /* padding-top: 10%; */
+  }
+
+  /************ MOBILE VIEWS ************/
+/* PORTRAIT */
+@media screen and (max-width: 768px) {
+  .image {
+    filter: none;
+    position: unset;
+    max-width: 300px;
+    opacity: 0.5;
+    margin-top: 0;
+  }
+}
+
+/* MOBILE LANDSCAPE */
+/* @media screen and (max-width: 812px) and (orientation: landscape) {
+  .image {
+    filter: none;
+    position: unset;
+    max-width: 300px;
+    padding: 0
+  }
+}
+ */
+/* Media query for landscape orientation on iPhone 11 Pro Max */
+/* @media screen and (max-width: 896px) and (orientation: landscape) {
+  .image {
+    filter: none;
+    position: unset;
+    max-width: 300px;
+  }
+}
+ */
+/* Media query for landscape orientation on Samsung Galaxy S10 */
+/* @media screen and (max-width: 1440px) and (orientation: landscape) {
+  .image {
+    filter: none;
+    position: unset;
+    max-width: 300px;
+  }
+} */

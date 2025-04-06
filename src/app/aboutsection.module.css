@@ -1,0 +1,235 @@
+/**************** ABOUT *************/
+.about {
+  margin: 5% 10%;
+  position: relative;
+  display: block;
+}
+
+.about_section {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next row */
+  /* margin-bottom: 30%; */
+}
+
+.redborder_title {
+font-size: 30px;
+text-transform: uppercase;
+padding: .2vw 0% .2vw 1vw;
+}
+
+.image_container {
+  flex: 0 0 50%; /* 50% width when two columns, full width when one column */
+  /* align-self: center; */
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about_body_container {
+  margin-top: 30px;
+  font-size: 14px;
+  flex: 0 0 50%; /* 50% width when two columns, full width when one column */
+}
+
+@media screen and (max-width: 768px) {
+.image_container,
+.about_body_container {
+    flex: 0 0 100%; /* 100% width for each item on smaller screens */
+}
+}
+.about_image {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  /* border-radius: 50%; */
+}
+
+.about_body p {
+margin-bottom: 15px;
+line-height: 2;
+}
+
+.about_list {
+margin-left: 25px;
+line-height: 2;
+}
+
+.about_paragraphs {
+display: flex;
+line-height: 2;
+align-items: center;
+/* margin-bottom: 30px; */
+margin: 30px;
+font-size: 14px;
+}
+
+.about_paragraphs p{
+margin-left: 20px;
+}
+
+.about_paragraphs_image {
+width: 80px;
+height: auto;
+}
+
+/******** WHO AM I SECTION **********/
+.whoami {
+  margin-top: 15%;
+background-color: #232323;
+height: 500px;
+position: relative;
+}
+
+.section_title {
+margin: 10%;
+}
+.body {
+margin: 0px 20px 0px 20px;
+line-height: 2;
+font-size: 14px;
+text-align: center;
+}
+
+.body p,.whoami_body p {
+margin-bottom: 20px;
+}
+
+.whoami_body {
+margin: 0px 30px;
+line-height: 2;
+font-size: 14px;
+}
+
+.whoami_body li {
+margin-bottom: 10px;
+}
+
+.list {
+margin-left: 20px;
+text-transform: uppercase;
+}
+
+.whoami_image {
+margin-top: -20px;
+width: 350px;
+height: 628px;
+  object-fit: cover; /* Adjust the object-fit property */
+  top: 0;
+  left: 0;
+  z-index: 1;
+  filter: grayscale(100%); /* Grayscale the image */
+  opacity: 0.3; /* Adjust the opacity as needed (0 to 1) */
+}
+
+
+.whoami_box, .whoami_box_color {
+padding-top: 20px;
+width: 350px;
+height: 628px;
+z-index: 1;
+margin-top: -70px;
+}
+
+.whoami_box {
+background-color: #E8E5E1;
+}
+.whoami_box_color {
+background-color: #C42629;
+position: relative; 
+display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* GridComponent.module.css */
+.gridContainer {
+display: flex;
+/* flex-wrap: wrap; */
+justify-content: space-around;
+margin: 5% 10%;
+}
+
+.gridItem, .gridItem_a, .gridItem_c {
+/* max-width: 50%; */
+margin: 10px;
+align-items: center;
+justify-content: center;
+}
+
+.gridItem {
+position: relative;
+}
+
+.textOverlay {
+margin-top: 0px;
+line-height: 2;
+text-align: center;
+position: absolute; /* Position the text absolutely */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make sure text spans the width of the container */
+  height: 100%; /* Make sure text spans the height of the container */
+  color: white; /* Text color */
+  padding: 20px; /* Adjust padding as needed */
+  padding-top: 0px;
+  z-index: 2; /* Set z-index higher than the image */
+}
+
+
+@media screen and (max-width: 1280px) {
+.whoami {
+  background-color: #232323;
+  height: 100%;
+  position: relative;
+}
+
+.whoami_box {
+  margin: 0 auto;
+}
+
+.gridContainer {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gridItem_a {
+  margin-top: -70px;
+  align-items: center;
+}
+
+.gridItem_c {
+  margin-bottom: -70px;
+  align-items: center;
+}
+
+.gridItem {
+  overflow: hidden;
+}
+}
+
+@media screen and (max-width: 600px) {
+.about_paragraphs {
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.about_paragraphs p{
+  margin-left: 0px;
+  text-align: left;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+/* .about_paragraphs_image {
+  filter: invert(1)
+} */
+
+.whoami_box {
+  background-color: #232323;
+}
+
+.whoami {
+  background-color: #C42629;
+}
+}

@@ -1,0 +1,10 @@
+/* components/FadeInOnScroll.module.css */
+.fadeIn {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  

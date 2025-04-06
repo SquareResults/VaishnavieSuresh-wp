@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center; /* Add this line to vertically center the text */
+}
+
+.designed {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}

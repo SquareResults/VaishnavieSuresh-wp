@@ -1,0 +1,206 @@
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 10%;
+    /* background-color: #58c9cb; */
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: #E8E5E1;
+    top: 29px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  
+  .timeline_end {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 16px solid #E8E5E1;
+    margin-left: calc(50% - 10px); /* Center the arrow */
+  }
+
+  /* Add a triangle at the end of the timeline */
+.timeline_end::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid blue; /* Adjust this value to control the size and color of the arrow */
+  top: -20px; /* Adjust this value to control the position of the arrow */
+  left: 50%;
+  margin-left: -10px;
+}
+
+
+  /* Container around content */
+  .blurb_left, .blurb_right {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  .blurb_right {
+    margin-left: 52%;
+  }
+  
+  /* The circles on the timeline */
+  .blurb_right::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #E8E5E1;
+    border: 4px solid #E8E5E1;
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+    left: -27px;
+  }
+
+  /* The circles on the timeline */
+  .blurb_left::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: -8.5px;
+    background-color: #E8E5E1;
+    border: 4px solid #E8E5E1;
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right {
+    right: 0;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #E8E5E1;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #E8E5E1;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 0;
+    left: 30px;
+    border: medium solid #E8E5E1;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #E8E5E1 transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -40px;
+  }
+  
+  /* The actual content */
+  .content {
+    padding: 20px 30px;
+    background-color: #E8E5E1;
+    position: relative;
+    border-radius: 6px;
+  }
+
+
+  .jobtitle {
+    font-size: 25px;
+    white-space: pre-line; /* Preserve line breaks */
+  }
+
+  .company {
+    font-size: 25px;
+    color: #C42629;
+    margin-bottom: 30px;
+  }
+
+  .location, .dates {
+    text-transform: uppercase;
+    color: #81807F;
+  }
+
+  .buttons {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #C42629;
+    border-radius: 10px;
+    border: 1px solid #9e2527;
+    padding: 10px 5px;
+    width: 70%;
+    margin-top: 10%;
+    text-align: center;
+    letter-spacing: 0.8px;
+    font-size: 0.8rem;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buttons:hover {
+    /* Optional: Add a different box shadow on hover if desired */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+  }
+
+  @media screen and (max-width: 768px) {
+    .blurb_right::after {
+        left: -20px;
+    }
+
+    /* REMOVE TIMELINE LINE */
+    .blurb_right::after, .blurb_left::after {
+      display: none;
+    }
+
+    .timeline::after {
+      z-index: 0;
+    }
+
+    .blurb_left, .blurb_right {
+      width: 100%;
+    }
+
+    .blurb_right {
+      margin-left: 0%;
+    }
+
+    .left::before, .right::before {
+      display: none;
+    }
+
+    .content {
+      text-align: center;
+      z-index: 3;
+    }
+  }

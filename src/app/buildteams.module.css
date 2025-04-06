@@ -1,0 +1,153 @@
+.buildingteams {
+    margin: 5% 10%;
+    line-height: 2;
+    color: #81807F;
+}
+
+.circle_icon {
+  position: relative;
+  width: 80px; /* Set the width and height of the circle */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+.circle_icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c42629; /* Set the background color */
+  border-radius: 50%; /* Create a circular shape */
+  z-index: -1; /* Move the pseudo-element below the content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.circle_icon img {
+  /* filter: grayscale(); */
+}
+
+  .gridContainer_tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gridItem_tools {
+    width: 250px;
+    max-width: 90%;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Adjusted to a column layout */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+  }
+
+  .title_tools {
+    text-transform: uppercase;
+    color: black;
+    margin: 20px;
+  }
+  
+  .list {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+
+    
+  .list li{
+    margin-bottom: 10px;
+  }
+
+  
+@media screen and (max-width: 768px) {
+    .gridItem {
+        /* width: 500px; */
+        max-width: 100%;
+    }
+}
+
+
+  /****** MANAGEMENT SUMMARY *******/
+  .management_summary {
+    margin: 5% 11%;
+}
+
+
+  /* Assuming styles.gridContainer is a flex container */
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
+    justify-content: center;
+  }
+  
+  .gridItem_txt {
+    /* This allows the item to grow and take available space */
+    background-color: #E8E5E1;
+    height: auto;
+    width: 320px;
+    padding: 2em;
+  }
+  .gridItem {
+    position: relative;
+  }
+  
+  /* Assuming styles.gridItem_red and styles.gridItem have similar styles */
+  .gridItem_red, .gridItem {
+    /* flex: 1;  */
+    /* This allows the items to grow and take available space */
+   height: auto;
+   width: 320px;
+    overflow: hidden; /* Hide the overflow content */
+  }
+  
+  /* Additional styling for images and text */
+  .grid_images {
+    height: auto;
+    object-fit: cover; 
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .gridItem_red {
+    background-color: #C42629;
+    width: 320px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: .5em;
+  }
+  
+  .descript {
+    font-size: 14px;
+  }
+
+  .descript li {
+    margin-bottom: 10px;
+    line-height: 2;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    color: #81807F;
+    text-align: center;
+  }
+  @media screen and (max-width: 900px) {
+    .gridItem_red {
+        display: none;
+      }
+  }

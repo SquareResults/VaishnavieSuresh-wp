@@ -1,0 +1,71 @@
+.yearsexperience {
+    background-color: white;
+    display: flex;
+    align-items: center; /* Center the content horizontally */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.circle_section {
+    margin: 20px 0;
+    display: flex; /* Align content vertically within grid items */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.circles_a, .circles_b, .circles_c, .circles_d, .circles_e {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Set the width and height of the circle */
+    height: 100px;
+    color: black;
+    border-radius: 50%; /* Create a circular shape */
+    font-size: 30px; /* Set the font size of the number */
+}
+
+.circles_a {
+    border: 12px solid #C42629; /* Set the border thickness and color */
+}
+
+.circles_b {
+    border: 12px solid #593B3B; /* Set the border thickness and color */
+}
+
+.circles_c {
+    border: 12px solid #FF0005; /* Set the border thickness and color */
+}
+
+.circles_d {
+    border: 12px solid #941E20; /* Set the border thickness and color */
+}
+
+.circles_e {
+    border: 12px solid #FF8F92; /* Set the border thickness and color */
+}
+
+.descript {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 100px;
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Add margin for spacing */
+}
+.circles_image {
+    width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 500px) {
+    .yearsexperience {
+        flex-direction: column; /* Adjusted to a column layout */
+        margin: auto 10%;
+    }
+    
+}

@@ -1,0 +1,131 @@
+
+.skillset {
+  margin: 5% 10%;
+}
+
+.gridContainer {
+  margin: 5% 10%;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex; /* Use flexbox for centering */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  justify-content: center; /* Center the items horizontally */
+  /* gap: 16px; Adjust the gap between grid items */
+  gap: 0;
+}
+
+.gridItem_r, .gridItem_b {
+  z-index: 2;
+  padding: 0 10px;
+  width: 248px;
+  height: 248px;
+  margin: -20px -20px;
+  display: flex; /* Align content vertically within grid items */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.gridItem_r {
+    background-color: #C42629;
+    color: white;
+}
+
+.gridItem_b {
+    background-color: #E8E5E1;
+    color: #81807F;
+}
+
+.backgrid {
+    background-color: black;
+    width: 248px;
+    height: 248px;
+    z-index: 1;
+    margin: 10px;
+}
+
+.icons {
+    font-size: 50px;
+}
+/****** LEADERSHIP SECTION ********/
+.background {
+  padding: 20px 0;
+  position: relative;
+  /* height: 150vh; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background: url('../../public/leader_bg.jpg') center/cover no-repeat; /* Replace 'your-photo.jpg' with your photo path */
+  color: white; /* Set text color to contrast with the background */
+}
+
+.text_section {
+  margin: 5% 10%;
+}
+
+.background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8); /* Black background with 50% opacity */
+}
+
+.list_blkbg {
+
+  color: white;
+  /* list-style: none; */
+  line-height: 2.2;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 2;
+  position: relative;
+  font-weight: 400;
+}
+
+/****** SKILLSET SECTION ********/
+.leadership {
+  margin: 5% 10%;
+}
+
+.title {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.list li {
+  color: #81807F;
+  text-align: center;
+  list-style: none;
+  text-transform: uppercase;
+  line-height: 2.2;
+  border-radius: 10%;
+  width: 33%
+}
+
+.leadership_para {
+  color: #81807F;
+  line-height: 2;
+}
+
+/*************** MOBILE *****************/
+@media screen and (max-width: 600px) {
+  .gridContainer {
+    gap: 10px;
+  }
+}
+ /************** DARK MODE ****************/
+ @media (prefers-color-scheme: dark) {
+  .backgrid {
+    background-color: white;
+  }
+ }

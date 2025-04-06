@@ -1,0 +1,202 @@
+.uhaul {
+    margin: 5% 10%;
+}
+
+.redborder {
+    border-left: 5px solid #C42629;
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .gridItem {
+    width: 50%;
+    padding: 30px;
+    align-items: center;
+  }
+
+
+  .gridContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    color: black;
+  }
+  
+  .beigegrid {
+    background-color: #E8E5E1;
+    line-height: 1.5;
+  }
+  
+  .redgrid {
+    background-color: #C42629;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+
+  .fullgridItem {
+    width: 100%;
+    padding: 30px;
+    align-items: baseline;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .uhaul_bcg {
+    background: url('https://images.unsplash.com/photo-1699514000563-fa8acb92e48e?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat; 
+  }
+
+  .firstSection {
+    background: url('/first_section.jpg') center/cover no-repeat; 
+  }
+
+  .thirdSection {
+    background: url('/third_section.jpg') center/cover no-repeat; 
+  }
+
+
+  .fourthSection {
+    background: url('/fourth_section.jpg') center/cover no-repeat; 
+  }
+
+  .photo {
+    color: white;
+    position: relative;
+  }
+
+  .lastphoto {
+    background: url('https://images.unsplash.com/photo-1573496358773-bdcdbd984982?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')  center/cover no-repeat; 
+  }
+
+  .photo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .blackbg::before {
+    background: rgba(0, 0, 0, 0.6); /* Black background with 50% opacity */
+  }
+
+  .redbg::before {
+    background: rgba(196, 38, 41, 0.7); /* Black background with 50% opacity */
+  }
+
+
+  .bigfont {
+    font-size: 40px;
+  }
+
+  .gridItem p {
+    margin-bottom: 10px;
+  }
+
+  .gridItem_quote {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute items along the main axis */
+    min-height: 200px; /* Ensure the container takes up the full height */
+
+  }
+
+  .gridItem_quote_sm {
+    width: 30%;
+  }
+
+  .hootsuite_photo {
+    background-color: #f74a45;
+    background: url('https://www.socialpilot.co/wp-content/uploads/2023/02/Hootsuite.jpg') center/contain no-repeat; 
+  }
+
+  .quote {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .quote_author {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .quote_author_title {
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* text-transform: uppercase; */
+  }
+  
+  .quote_author_semibold {
+    font-weight: 500;
+  }
+
+  .gridItem_social_photo {
+    width: 60%;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .download_casestudy {
+    padding: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .paragraph_column {
+      flex-basis: 100%;
+    }
+
+    .gridItem, .gridItem_quote_sm, .gridItem_quote, .paragraphtwo_column, .gridItem_social_photo {
+      flex-basis: 100%;
+    }
+
+    .socialphoto1, .socialphoto2 {
+      height: 500px;
+    }
+  }
+
+  /* @media (orientation: landscape) {
+    .paragraph_column, .paragraphtwo_column {
+      flex-basis: 100%;
+    }
+  } */
+
+  @media screen and (max-width: 812px) and (orientation: landscape) {
+    .paragraph_column, .paragraphtwo_column {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* Media query for landscape orientation on iPhone 11 Pro Max */
+  @media screen and (max-width: 896px) and (orientation: landscape) {
+    .paragraph_column, .paragraphtwo_column {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* Media query for landscape orientation on Samsung Galaxy S10 */
+  @media screen and (max-width: 1440px) and (orientation: landscape) {
+    .paragraph_column, .paragraphtwo_column {
+      flex-basis: 100%;
+    }
+  }

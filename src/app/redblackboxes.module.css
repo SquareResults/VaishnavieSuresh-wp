@@ -1,0 +1,110 @@
+.redblackboxes {
+    margin: 5% 20%;
+  }
+  
+  .gridContainer {
+    text-transform: uppercase;
+    text-align: center;
+    display: flex; /* Use flexbox for centering */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
+    /* gap: 16px; Adjust the gap between grid items */
+  }
+  
+  .gridItem {
+    z-index: 2;
+    padding: 0 10px;
+    width: 248px;
+    height: 350px;
+    margin: -20px -20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: top; 
+    align-items: center; 
+    background-color: #232323;
+    color: white;  
+}
+  
+  .backgrid {
+      background-color: #C42629;
+      width: 248px;
+      height: 350px;
+      z-index: 1;
+      margin: 10px;
+      border: 1px solid blue;
+  }
+
+  .line {
+    width: 80%;
+    border: 0.5px solid #959492; /* Adjust the line color as needed */
+    margin: 10px 10px; /* Adjust the margin to add space between the line and text */
+  }
+
+  .title {
+    margin-top: 20%;
+    font-size: 30px;
+  }
+
+  .description {
+    text-transform: none;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .gridItem_a, .gridItem_b {
+    z-index: 2;
+    padding: 0 10px;
+    width: 248px;
+    height: 350px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: top; 
+    align-items: center; 
+    background-color: #232323;
+    color: white;  
+}
+
+.gridItem_a {
+    margin: -20px -20px;
+}
+
+.backgrid_a, .backgrid_r { 
+    background-color: #C42629;
+    width: 248px;
+    height: 350px;
+    z-index: 1;
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.backgrid_r {
+  padding: 40px 0px 0px 0px;
+}
+
+.backgrid_a {
+  padding: 40px 0px 0px 40px;
+}
+
+.backgrid_b, .backgrid_rb {
+    background-color: #C42629;
+    width: 248px;
+    height: 350px;
+    z-index: 1;
+    margin: 50px 0px -30px 0px;
+    border: 1px solid blue;
+
+}
+
+.backgrid_b {
+  padding: 40px 0px 0px 40px;
+}
+
+.backgrid_rb {
+  padding: 40px 0px 0px 0px;
+}
+
+.gridItem_b {
+    margin: -60px -20px;
+}

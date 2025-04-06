@@ -1,0 +1,69 @@
+.recommendations {
+    margin: 5% 20%;
+}
+
+.quote {
+    color: #81807F;
+    font-size: small;
+    text-align: left;
+    text-overflow: ellipsis;
+    max-height: 200px;
+}
+.author {
+    color: black;
+    text-transform: uppercase;
+}
+
+.carousel_item {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    box-shadow: black;
+}
+
+.background_image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%; 
+    height: 95%;
+    display: flex;
+    box-shadow: 5px 5px 5px grey;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5%;
+    align-items: center;
+    background-color: #E8E5E1; /* Adjust the overlay background color and opacity */
+}
+
+
+/* CSS for the container div */
+.circleContainer {
+    width: 100px; /* Set the width of the container */
+    height: 100px; /* Set the height of the container */
+    min-height: 100px;
+    border-radius: 50%; /* Make the container a circle using border-radius */
+    overflow: hidden; /* Hide the parts of the image that extend beyond the circle */
+
+    /* Additional styles for centering the image within the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS for the circular image */
+.circleImage {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    border-radius: 50%; /* Ensure the image itself is circular */
+}

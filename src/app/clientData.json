@@ -1,0 +1,123 @@
+{
+    "PortfolioPage": {
+        "logo": "./yn_logo.png",
+        "logo_alt": "Your Name Web Portfolio Logo",
+        "linkedIn": "https://www.linkedin.com/",
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+        "twitter": "https://twitter.com/",
+        "email": "yourname@email.com",
+        "phone": "222-333-4567",
+        "resume": "./YourResume.pdf"
+    },
+    "Home": {
+        "firstName": "Your",
+        "lastName": "Name",
+        "titles": [
+            "Your Job Titles",
+            "Your Certifications",
+            "Your Branding"
+        ]
+    },
+    "About": {
+        "image": "./portfolio_picture.png",
+        "image_alt": "Your Name Portfolio Photo",
+        "title": "YOUR TITLE",
+        "title_sub": "Optional Subtitle",
+        "body": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod. Molestie at elementum eu facilisis sed odio morbi.",
+            "Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Porttitor eget dolor morbi non arcu."
+        ],
+        "para1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean.",
+        "para2": "Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus.",
+        
+        "bg_image": "./about/chart.jpg",
+        "bg_image_alt": "Your Picture Here",
+        "whoami_box1": [
+            "Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Iaculis eu non diam phasellus vestibulum lorem sed.",
+            "Cursus eget nunc scelerisque viverra mauris in aliquam.",
+
+            "<ul><li>Pellentesque elit eget.</li>Adipiscing at in tellus integer feugiat.<li>Facilisis gravida neque convallis a cras semper auctor.</li></ul>"
+
+        ]
+    },
+    "Leadership": {
+        "title": "Skillset",
+        "list_of_skills": [
+            "Project/Program Mgt. PMP",
+            "Agile/Scrum/ITIL-v4/Risk",
+            "Jira/Jira Align/Confluence",
+            "Waterfall Technique",
+
+            "MS Office Suite",
+            "PowerPoint",
+            "Clarity/Primavera P6",
+            "AWS Cloud & MS Azure",
+
+            "Decision-making/Conflict resolution",
+            "Manage Multiple Complex Projects",
+            "Excellent Communicator",
+            "Exceptional Team Leader/Player"
+        ],
+        "leadership_para_title": "Operational Excellence and Business Growth.",
+        "leadership_para": [
+            "Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod."
+        ]
+    },
+    "Skillset": {
+        "title": "Specialization", 
+        "grid1_txt": "Electrical Engineering",
+        "grid2_txt": "Project Manager",
+        "grid3_txt": "Six Sigma Black Belt",
+
+        "grid4_txt": "Scrum Fundamentals",
+        "grid5_txt": "PMP",
+        "grid6_txt": "CAPM",
+
+        "grid7_txt": "ITIL-V4",
+        "grid8_txt": "Risk-PMI",
+        "grid9_txt": "Service Management"
+
+    },
+    "Education": {
+        "title": "Education and Certifications.",
+        "data": [
+            {
+                "img": "/school/school3.png",
+                "img_alt": "",
+                "year": "UNIVERSITY OF PHEONIX",
+                "school": "UNIVERSITY OF PHEONIX",
+                "institutions": "",
+                "sub_text": "",
+                "degree": "Degree/Certificate",
+                "location": "",
+                "link": ""
+            },
+            {
+                "img": "/school/school5.png",
+                "img_alt": "",
+                "year": "UNIVERSITY OF Chicago",
+                "school": "UNIVERSITY OF Chicago",
+                "institutions": "",
+                "sub_text": "",
+                "degree": "Degree/Certificate",
+                "location": "",
+                "link": ""
+            },
+            {
+                "img": "/school/shrm_logo.jpg",
+                "img_alt": "",
+                "year": "Certification Title",
+                "school": "Company",
+                "institutions": "Company",
+                "sub_text": "",
+                "degree": "Certification Title",
+                "location": "",
+                "link": ""
+            }
+        ]
+    },
+    "Contact": {
+        "email": "yourname@email.com"
+    }
+}

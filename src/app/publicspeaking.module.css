@@ -1,0 +1,48 @@
+/* Add this CSS to your stylesheet or inline style */
+.publicspeaking {
+    margin: 5% 10%;
+}
+.carousel_item {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .background_image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Use space-between to push items to the top and bottom */
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the logo size as needed */
+    height: auto;
+  }
+  
+  .text {
+    color: white;
+    font-size: 30px;
+    align-self: flex-end;
+  }
+
+  .company {
+    color: white;
+    text-transform: uppercase;
+    
+  }

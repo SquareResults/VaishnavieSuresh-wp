@@ -1,0 +1,170 @@
+.framework_circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 10%;
+  }
+
+  .image {
+    /* Optionally, you can set a max-width to constrain the image size */
+    max-width: 60%;
+    height: auto;
+    min-height: 450px;
+    min-width: 450px;
+  }
+  
+  .framework_circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; /* Ensure the grid is on top of the image */
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.5) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.5) 1px, transparent 1px); */
+    background-size: 20px 20px; /* Adjust grid size as needed */
+  }
+
+  .gridContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px; /* Adjust the gap between grid items */
+    z-index: 2; /* Ensure the grid is on top of the image */
+  }
+  
+  .gridItem, .gridItem_a {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Adjust the font size */
+    color: black; /* Adjust the font color */
+    padding: 5%;
+  }
+
+  .gridItem_a {
+    background-color: rgba(232, 229, 225, 0.8);
+    /* display: flex; */
+  }
+
+  .gridItem_a h2 {
+    margin-bottom: 20px;
+  }
+
+  .gridItem_a p {
+    text-transform: uppercase;
+    color: #81807F;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .gridItem {
+        display: none;
+    }
+    
+    .image {
+        display: none;
+    }
+
+    .gridContainer {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+      }
+      
+      
+      .gridItem_a {
+        margin: 10px;
+        align-items: center;
+      }
+  }
+  
+
+/*********** BREAKDOWN SECTION OF ITEMS ************/
+.breakdown_section {
+    margin: 5% 10%;
+}
+
+.title {
+    background-color: #C42629;
+    color: white;
+    padding: 10px 35px;
+    text-align: left;
+    font-size: 30px;
+    /* position: absolute; */
+  }
+
+.gridContainer_descript {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.gridItem_descript {
+    font-size: 24px; /* Adjust the font size */
+    width: 20vw;
+    min-width: 338px;
+    margin: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Adjusted to a column layout */
+    align-items: flex-start; /* Center the content horizontally */
+    justify-content: space-between; /* Center the content vertically */
+}
+
+.descript_title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+}
+
+.red {
+    color: #C42629;
+}
+
+.list {
+    margin-left: 20px;
+    margin-top: 10%;
+    font-size: 14px;
+}
+
+.list li {
+    margin-bottom: 20px;
+}
+
+.sublist {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px)  {
+  .title {
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 1280px)  {
+  /* .gridItem_descript {
+    max-width: fit-content;
+    width: auto;
+  } */
+}
+
+@media screen and (max-width: 768px)  {
+  .gridItem_descript {
+    max-width: fit-content;
+    width: auto;
+  }
+}

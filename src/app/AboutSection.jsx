@@ -35,7 +35,7 @@ const AboutSection = () => {
                         <div className='redborder'> 
                             <div className={styles.redborder_title}>
                                 {clientData.About.title} 
-                                <div style={{fontSize: "15px"}}>{clientData.About.sub_title}</div>
+                                <div style={{fontSize: '15px'}}>{clientData.About.sub_title}</div>
                             </div>
                         </div>
                         <div className={styles.about_body}>
@@ -119,7 +119,7 @@ const AboutSection = () => {
                                         <div className={styles.body}>
                                             <img src="/about/graduationcap.png" alt="graduation" width="60px" className={styles.whoami_icon}/>
                                             <p style={{textAlign: 'center', lineHeight: 2.2}}>To build agile, people-centered operations that drive efficiency, reduce waste, and scale sustainably — empowering teams to deliver consistent, high-impact results through smart systems and continuous improvement.</p>
-                                            <p style={{ textAlign: 'center', lineHeight: 2.2, fontStyle: 'italic' }}>"Because the best operations aren’t just lean — they’re human, adaptable, and built to grow".</p>
+                                            <p style={{ textAlign: 'center', lineHeight: 2.2, fontStyle: 'italic' }}>'Because the best operations aren’t just lean — they’re human, adaptable, and built to grow'.</p>
                                         </div>
                                     </div>
                                   

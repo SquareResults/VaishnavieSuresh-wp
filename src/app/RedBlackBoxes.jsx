@@ -22,7 +22,7 @@ const RedBlackBoxes = () => {
                             <div className={styles.line}></div>
                             <div className={styles.description}>
                                 <div className={montserrat.className}>
-                                <p>presented the research paper, "Energy Management and Hybridization of Nissan Leaf Using Switched Capacitor Converter and Ultra-Capacitor".</p>
+                                <p>presented the research paper, 'Energy Management and Hybridization of Nissan Leaf Using Switched Capacitor Converter and Ultra-Capacitor'.</p>
                                 <p></p>
                                 </div>
                             </div>

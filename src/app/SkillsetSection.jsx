@@ -123,7 +123,7 @@ const SkillsetSection = ({refs}) => {
                         <div className={styles.gridItem_b}>
                             <div className={styles.text}>
                                 <div className={styles.icons}>
-                                <img src="/skillsetsection/chart.png" alt="chart" width="80px" style={{opacity: "0.5"}}/>
+                                <img src="/skillsetsection/chart.png" alt="chr" width="80px" style={{opacity: "0.5"}}/>
                                 </div>
                                 <p>{clientData.Skillset.grid10_txt}</p>
                             </div>

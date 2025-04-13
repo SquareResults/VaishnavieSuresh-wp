@@ -20,7 +20,7 @@ const Certifications = () => {
     <div className={styles.certGroupContainer}>
       <FadeInOnScroll>
       <div className={`${styles.certGroup} ${montserrat.className}`}>
-        <h2><img src="/certifications/shrm.jpg"  width="150px"/></h2>
+        <h2><img src="/certifications/shrm.jpg" alt="shrm" width="150px"/></h2>
         <ul>
           <li>
           <p style={bold}><span style={red}>Six Sigma – Green Belt</span> Certificate</p>            
@@ -32,7 +32,7 @@ const Certifications = () => {
       </FadeInOnScroll>
       <FadeInOnScroll>
       <div className={`${styles.certGroup} ${montserrat.className}`}>
-        <h2><img src="/certifications/linkedin.jpg"  width="150px"/></h2>
+        <h2><img src="/certifications/linkedin.jpg" alt="linkedIn"  width="150px"/></h2>
         <ul>
           <li>            
             <p><span style={bold}><span style={red}> Certified</span> LinkedIn Recruiter Expert</span></p>
@@ -43,7 +43,7 @@ const Certifications = () => {
       </FadeInOnScroll>
       <FadeInOnScroll>
       <div className={`${styles.certGroup} ${montserrat.className}`}>
-        <h2><img src="/certifications/ctr.jpg"  width="150px"/></h2>
+        <h2><img src="/certifications/ctr.jpg" alt="ctr"  width="150px"/></h2>
         <ul>
           <li>
           <p><span style={bold}><span style={red}>AIRS Certified</span> Technical Recruiter</span></p>
@@ -54,7 +54,7 @@ const Certifications = () => {
       </FadeInOnScroll>
       <FadeInOnScroll>
       <div className={`${styles.certGroup} ${montserrat.className}`}>
-        <h2><img src="/certifications/slmd.jpg"  width="150px"/></h2>
+        <h2><img src="/certifications/slmd.jpg" alt="slmd"  width="150px"/></h2>
         <ul>
           <li>
           <p><span style={bold}><span style={red}>Situational Leadership and Management Development</span> Certification</span></p>

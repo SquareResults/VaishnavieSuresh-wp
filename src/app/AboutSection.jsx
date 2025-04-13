@@ -119,7 +119,7 @@ const AboutSection = () => {
                                         <div className={styles.body}>
                                             <img src="/about/graduationcap.png" alt="graduation" width="60px" className={styles.whoami_icon}/>
                                             <p style={{textAlign: 'center', lineHeight: 2.2}}>To build agile, people-centered operations that drive efficiency, reduce waste, and scale sustainably — empowering teams to deliver consistent, high-impact results through smart systems and continuous improvement.</p>
-                                            <p style={{ textAlign: 'center', lineHeight: 2.2, fontStyle: 'italic' }}>'Because the best operations aren’t just lean — they’re human, adaptable, and built to grow'.</p>
+                                            <p style={{ textAlign: 'center', lineHeight: 2.2, fontStyle: 'italic' }}>&quot;Because the best operations aren’t just lean — they’re human, adaptable, and built to grow&quot;.</p>
                                         </div>
                                     </div>
                                   

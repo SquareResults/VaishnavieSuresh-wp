@@ -30,79 +30,79 @@ const BuildTeamSection = ({refs}) => {
                 <div className={styles.gridContainer_tools}>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Jira.png" width='58px'/>
+                            <img src="/tools_logo/Jira.png" alt="Jira" width='58px'/>
                         </div>
                         <div className={styles.title_tools}>JIRA</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Tableau.png" width='80px'/>
+                            <img src="/tools_logo/Tableau.png" alt="Tableau" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Tableau</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Power-BI.png" width='80px'/>
+                            <img src="/tools_logo/Power-BI.png" alt="PowerBI" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>PowerBI</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/GitHub.png" width='62px'/>
+                            <img src="/tools_logo/GitHub.png" alt="Github" width='62px'/>
                         </div>
                         <div className={styles.title_tools}>Github</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Minitab.png" width='65px'/>
+                            <img src="/tools_logo/Minitab.png" alt="Minitab" width='65px'/>
                         </div>
                         <div className={styles.title_tools}>Minitab</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/M 365 dynamic.png" width='80px'/>
+                            <img src="/tools_logo/M 365 dynamic.png" alt="365 dynamic" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Microsoft Dynamic 365</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Airtable.png" width='80px'/>
+                            <img src="/tools_logo/Airtable.png" alt="Airtable" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Airtable</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Gapps logo.png" width='80px'/>
+                            <img src="/tools_logo/Gapps logo.png" alt="Gapps" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Google Apps</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/SAP.png" width='80px'/>
+                            <img src="/tools_logo/SAP.png" alt="SAP" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>SAP</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Office 365.png" width='80px'/>
+                            <img src="/tools_logo/Office 365.png" alt="365" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Microsoft Office 365</div>                       
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Sharepoint logo.png" width='80px'/>
+                            <img src="/tools_logo/Sharepoint logo.png" alt="Sharepoint" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Sharepoint</div>                       
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Smartsheetlogo.jpg" width='80px'/>
+                            <img src="/tools_logo/Smartsheetlogo.jpg" alt="Smartsheets" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Smartsheets</div>                   
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/AdobeAcrobatlogo.png" width='80px'/>
+                            <img src="/tools_logo/AdobeAcrobatlogo.png" alt="Adobe" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Adobe Acrobat</div>                   
                     </div>

@@ -68,7 +68,7 @@ const AboutSection = () => {
                                 <div className={montserrat.className}>
                                     <div className={styles.whoami_body}>
                                         <div style={{textAlign: 'center', marginBottom: '15px'}}>
-                                            <img src="/about/portfolio.png" width="60px" className={styles.whoami_icon}/>                                           
+                                            <img src="/about/portfolio.png" alt="about" width="60px" className={styles.whoami_icon}/>                                           
                                             <p>I started my journey as an engineer, but quickly realized I was more drawn to the human side of systems—how operations impact people. Now, I bridge that gap by building processes that don’t just run efficiently but empower teams. I believe the best operations don’t feel like machines—they feel like momentum.</p>
                                         </div>
                                         <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}></p>

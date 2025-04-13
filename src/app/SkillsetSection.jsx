@@ -23,7 +23,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.backgrid}>
                         <div className={styles.gridItem_r}>
                             <div className={styles.text}>
-                            <div className={styles.icons}><img src="/skillsetsection/world.png" width="80px" style={{filter: "invert(1)"}}/></div>
+                            <div className={styles.icons}><img src="/skillsetsection/world.png" alt="world" width="80px" style={{filter: "invert(1)"}}/></div>
                             <p>{clientData.Skillset.grid1_txt}</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const SkillsetSection = ({refs}) => {
                         <div className={styles.gridItem_b}>
                             <div className={styles.text}>
                                 <div className={styles.icons}>
-                                <img src="/skillsetsection/chart.png" width="80px" style={{opacity: "0.5"}}/>
+                                <img src="/skillsetsection/chart.png" alt="chart" width="80px" style={{opacity: "0.5"}}/>
                                 </div>
                                 <p>{clientData.Skillset.grid2_txt}</p>
                             </div>
@@ -43,7 +43,7 @@ const SkillsetSection = ({refs}) => {
                         <div className={styles.gridItem_r}>
                             <div className={styles.text}>
                                 <div className={styles.icons}>
-                                <img src="/skillsetsection/analytics.png" width="80px" style={{filter: "invert(1)"}}/>
+                                <img src="/skillsetsection/analytics.png" alt="analytics" width="80px" style={{filter: "invert(1)"}}/>
                                 </div>
                                 <p>{clientData.Skillset.grid3_txt}</p>
                             </div>
@@ -56,7 +56,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.gridItem_b}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
-                            <img src="/skillsetsection/calendar.png" width="80px" style={{opacity: "0.5"}}/>
+                            <img src="/skillsetsection/calendar.png" alt="calendar" width="80px" style={{opacity: "0.5"}}/>
                             </div>
                             <p>{clientData.Skillset.grid4_txt}</p>
                         </div>
@@ -67,7 +67,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.gridItem_r}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
-                            <img src="/skillsetsection/settings.png" width="80px" style={{filter: "invert(1)"}}/>
+                            <img src="/skillsetsection/settings.png" alt="settings" width="80px" style={{filter: "invert(1)"}}/>
                             </div>
                             <p>{clientData.Skillset.grid5_txt}</p>
                         </div>
@@ -78,7 +78,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.gridItem_b}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
-                            <img src="/skillsetsection/server.png" width="80px" style={{opacity: "0.5"}}/>
+                            <img src="/skillsetsection/server.png" alt="server" width="80px" style={{opacity: "0.5"}}/>
                             </div>
                             <p>{clientData.Skillset.grid6_txt}</p>
                         </div>
@@ -92,7 +92,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.gridItem_r}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
-                            <img src="/skillsetsection/puzzle.png" width="80px" style={{filter: "invert(1)"}}/>
+                            <img src="/skillsetsection/puzzle.png" alt="puzzle" width="80px" style={{filter: "invert(1)"}}/>
                             </div>
                             <p>{clientData.Skillset.grid7_txt}</p>
                         </div>
@@ -102,7 +102,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.gridItem_b}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
-                            <img src="/skillsetsection/support.png" width="80px" style={{opacity: "0.5"}}/>
+                            <img src="/skillsetsection/support.png" alt="support" width="80px" style={{opacity: "0.5"}}/>
                             </div>
                             <p>{clientData.Skillset.grid8_txt}</p>
                         </div>
@@ -112,7 +112,7 @@ const SkillsetSection = ({refs}) => {
                     <div className={styles.gridItem_r}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
-                            <img src="/skillsetsection/database_storage.png" width="80px" style={{filter: "invert(1)"}}/>
+                            <img src="/skillsetsection/database_storage.png" alt="storage" width="80px" style={{filter: "invert(1)"}}/>
                             </div>
                             <p>{clientData.Skillset.grid9_txt}</p>
                         </div>
@@ -123,7 +123,7 @@ const SkillsetSection = ({refs}) => {
                         <div className={styles.gridItem_b}>
                             <div className={styles.text}>
                                 <div className={styles.icons}>
-                                <img src="/skillsetsection/chart.png" width="80px" style={{opacity: "0.5"}}/>
+                                <img src="/skillsetsection/chart.png" alt="chart" width="80px" style={{opacity: "0.5"}}/>
                                 </div>
                                 <p>{clientData.Skillset.grid10_txt}</p>
                             </div>

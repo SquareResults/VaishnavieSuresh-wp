@@ -1,35 +1,35 @@
 {
     "PortfolioPage": {
-        "logo": "./yn_logo.png",
+        "logo": "./icons/Faviconp.png",
         "logo_alt": "Your Name Web Portfolio Logo",
-        "linkedIn": "https://www.linkedin.com/",
+        "linkedIn": "https://www.linkedin.com/in/vaishnavie-suresh/",
         "facebook": "https://www.facebook.com/",
         "instagram": "https://www.instagram.com/",
         "twitter": "https://twitter.com/",
-        "email": "yourname@email.com",
-        "phone": "222-333-4567",
-        "resume": "./YourResume.pdf"
+        "email": "sureshvaishnavie@gmail.com",
+        "phone": "7472449667",
+        "resume": "/VAISHNAVIE SURESH_RESUME_OPERATION Manager.pdf"
     },
     "Home": {
-        "firstName": "Your",
-        "lastName": "Name",
+        "firstName": "Vaishnavie",
+        "lastName": "Suresh",
         "titles": [
-            "Your Job Titles",
-            "Your Certifications",
-            "Your Branding"
+            "Operations Manager",
+            "",
+            ""
         ]
     },
     "About": {
-        "image": "./portfolio_picture.png",
+        "image": "./Vaishnavie 2.jpg",
         "image_alt": "Your Name Portfolio Photo",
-        "title": "YOUR TITLE",
+        "title": "Operations Manager",
         "title_sub": "Optional Subtitle",
         "body": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod. Molestie at elementum eu facilisis sed odio morbi.",
-            "Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Porttitor eget dolor morbi non arcu."
+            "I am Vaishnavie Suresh, an Operations Manager passionate about efficiency, innovation, and problem-solving. With expertise in workflow optimization, supply chain management, and process improvement, I thrive on creating streamlined, cost-effective solutions that enhance business operations. My journey in engineering and industrial management has equipped me with a deep understanding of lean methodologies, Six Sigma, Total Quality Management (TQM), and value stream mapping, allowing me to drive continuous improvement and operational excellence.",
+            "I am guided by values of integrity, adaptability, and collaboration, believing that a well-optimized system not only enhances productivity but also fosters team synergy and long-term success. My strengths lie in my data-driven decision-making, cross-functional leadership, and ability to transform complex challenges into actionable solutions. Over the years, I have successfully reduced costs, enhanced efficiency, and improved quality assurance in various industries, always striving to deliver impactful, measurable results."
         ],
-        "para1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean.",
-        "para2": "Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus.",
+        "para1": "Beyond my professional pursuits, I have a deep love for traveling, painting, baking, and exploring new creative outlets. I believe that embracing diverse experiences fuels innovation and fresh perspectives, which I bring into my work. My career goal is to drive operational excellence through sustainable strategies, leverage technology for smarter supply chain solutions, and lead transformative projects that shape the future of business operations. With technical proficiency in JIRA, Tableau, PowerBI, GitHub, Minitab, Microsoft Dynamic 365 and Airtable, I continuously seek to expand my expertise and stay ahead of industry advancements. For me, every challenge is an opportunity to innovate, optimize, and create lasting impact.",
+        "para2": "I bring a unique blend of technical expertise, strategic thinking, and operational efficiency to any organization. My ability to analyze complex systems, implement data-driven solutions, and optimize workflows allows businesses to enhance productivity, reduce costs, and improve overall performance. I excel at leading cross-functional teams, aligning business objectives with operational strategies, and driving continuous improvement initiatives. Whether it's refining supply chain processes, implementing lean methodologies, or leveraging technology for smarter decision-making, I am committed to delivering scalable, high-impact solutions that drive long-term growth and sustainability. For me, every challenge is an opportunity to innovate, optimize, and create lasting impact.",
         
         "bg_image": "./about/chart.jpg",
         "bg_image_alt": "Your Picture Here",
@@ -44,80 +44,79 @@
     "Leadership": {
         "title": "Skillset",
         "list_of_skills": [
-            "Project/Program Mgt. PMP",
-            "Agile/Scrum/ITIL-v4/Risk",
-            "Jira/Jira Align/Confluence",
-            "Waterfall Technique",
+            "Lean Manufacturing",
+            "Six Sigma",
+            "Process Improvement",
+            "Supply Chain Management",
+            "Total Quality Management (TQM)",
+            "Value Stream Mapping",
 
-            "MS Office Suite",
-            "PowerPoint",
-            "Clarity/Primavera P6",
-            "AWS Cloud & MS Azure",
+            "Quality Assurance",
+            "Production Planning and Control",
+            "Continuous Improvement",
+            "Supply Chain Management",
 
-            "Decision-making/Conflict resolution",
-            "Manage Multiple Complex Projects",
-            "Excellent Communicator",
-            "Exceptional Team Leader/Player"
+            "Leadership",
+            "Problem-Solving",
+            "Cross-Functional Collaboration",
+            "Data-Driven Decision Making",
+            "Communication",
+            "Adaptability",
+            "ERP Systems",
+            "Resource Allocation Techniques",
+            "Work Breakdown Structure"
         ],
-        "leadership_para_title": "Operational Excellence and Business Growth.",
-        "leadership_para": [
-            "Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod."
+        "leadership_para_title": "",
+        "leadeership_para": [ 
+            "To build agile, people-centered operations that drive efficiency, reduce waste, and scale sustainably — empowering teams to deliver consistent, high-impact results through smart systems and continuous improvement.Because the best operations aren’t just lean — they’re human, adaptable, and built to grow."
         ]
     },
     "Skillset": {
-        "title": "Specialization", 
-        "grid1_txt": "Electrical Engineering",
-        "grid2_txt": "Project Manager",
-        "grid3_txt": "Six Sigma Black Belt",
+        "title": "Leadership Strengths", 
+        "grid1_txt": "Strategic Decision-Making",
+        "grid2_txt": "Process Optimization",
+        "grid3_txt": "Cross-Functional Collaboration",
 
-        "grid4_txt": "Scrum Fundamentals",
-        "grid5_txt": "PMP",
-        "grid6_txt": "CAPM",
+        "grid4_txt": "Problem-Solving & Crisis Management",
+        "grid5_txt": "Team Leadership & Development",
+        "grid6_txt": "Strategic Planning & Execution",
 
-        "grid7_txt": "ITIL-V4",
-        "grid8_txt": "Risk-PMI",
-        "grid9_txt": "Service Management"
+        "grid7_txt": "Digital Transformation",
+        "grid8_txt": "Customer-Centric Approach",
+        "grid9_txt": "Agile Project Management",
+        "grid10_txt": "Sustainability"
 
     },
+    
     "Education": {
-        "title": "Education and Certifications.",
+        "title": "Education and Certifications",
         "data": [
             {
-                "img": "/school/school3.png",
-                "img_alt": "",
-                "year": "UNIVERSITY OF PHEONIX",
-                "school": "UNIVERSITY OF PHEONIX",
-                "institutions": "",
+                "img": "./CSUN.png",
+                "img_alt": "CSUN",
+                "year": "",
+                "school": "California State University Northridge",
+                "institutions": "California State University Northridge",
                 "sub_text": "",
-                "degree": "Degree/Certificate",
-                "location": "",
+                "degree": "Masters in Science in Engineering/Industrial Management",
+                "location": "CA, USA",
                 "link": ""
             },
             {
-                "img": "/school/school5.png",
-                "img_alt": "",
-                "year": "UNIVERSITY OF Chicago",
-                "school": "UNIVERSITY OF Chicago",
-                "institutions": "",
+                "img": "./Rajagiri.jpg",
+                "img_alt": "RSET",
+                "year": "",
+                "school": "Rajagiri School of Engineering and Technology",
+                "institutions": "Rajagiri School of Engg and Tech",
                 "sub_text": "",
-                "degree": "Degree/Certificate",
-                "location": "",
-                "link": ""
-            },
-            {
-                "img": "/school/shrm_logo.jpg",
-                "img_alt": "",
-                "year": "Certification Title",
-                "school": "Company",
-                "institutions": "Company",
-                "sub_text": "",
-                "degree": "Certification Title",
-                "location": "",
+                "degree": "Bachelor of Technology in Electrical & Electronics Engineering",
+                "location": "Kerala, India",
                 "link": ""
             }
+            
         ]
     },
     "Contact": {
-        "email": "yourname@email.com"
+        "email": "sureshvaishnavie@gmail.com"
     }
 }

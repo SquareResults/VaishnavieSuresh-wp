@@ -49,10 +49,10 @@
 
   .image {
     filter: grayscale();
-    opacity: 0.2;
+    opacity: 0.1;
     width: 415px;
     position: absolute;
-    right: 10%;
+    right: 8%;
     margin-top: -40px; /*use to adjust logo position from line divider
     /* padding-top: 10%; */
   }

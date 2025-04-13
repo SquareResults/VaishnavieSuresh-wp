@@ -50,8 +50,8 @@ const CirclesSection = () => {
                 <div className={styles.image_container}>
                     <img src="/circles_image.png" alt="Circles Years of Experience" className={styles.circles_image}/>
                 </div>
-            </div> */}
-            <RedBlackBoxes />
+            </div> 
+            <RedBlackBoxes />*/}
         </div>   
     );
 }

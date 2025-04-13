@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { Montserrat } from 'next/font/google'
 import styles from './publicspeaking.module.css'
 import Slider from 'react-slick';
@@ -17,29 +16,36 @@ const montserrat = Montserrat({
 const PublicSpeakingSection = ({isMediumScreen, isSmallScreen}) => {
     const carouselItems = [
         {
-          backgroundImage: 'url("https://golocal24.com/wp-content/uploads/2014/12/BIAKelsey-Logo-1024x393.png")',
-          company: '2011 and 2015',
-          text: 'BIA/Kelsey Conference Panelist',
-          imageStyle: { paddingTop: '10%' }
-        },
-        {
-          backgroundImage: 'url("https://resource.localogy.com/hubfs/Localogy%20Excellence%20Awards%20%283%29.png")',
-          company: 'speaker 2015',
-          text: 'Localogy (formerly local search association)',
+          backgroundImage: 'url("./ARCS C.jpg")',
+          company: 'Autonomy Research Center for STEAHM (ARCS)',
+          text: `Interdisciplinary Seminars <p></p>`,
           imageStyle: {backgroundSize: 'cover'},
+          // link: './AGlimpseInside.pdf'
         },
         {
-            backgroundImage: 'url("https://s3-prod.adage.com/s3fs-public/styles/width_660/public/20231211_BobLiodice-ANA-01112_3x2.jpg")',
-            company: 'Telephone Directory Committee',
-            text: 'Association of National Advertisers ',
+            backgroundImage: 'url("./lead.png")',
+            company: 'Leadership as Engineering Professionals in High-Tech Firms',
+            text: `Led leadership courses at CSUN <p></p>`,
             imageStyle: {backgroundSize: 'cover'},
           },
           {
-            backgroundImage: 'url("https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
-            company: '',
-            text: 'Association of Directory Marketing',
+            backgroundImage: 'url("./Con2.jpg")',
+            company: '2021 IEEE International Power and Renewable Energy Conference',
+            text: `Co-Author of "Energy Management & Hybridization of Nissan Leaf"<p></p>`,
             imageStyle: {backgroundSize: 'cover'},
-          }
+          },
+          // {
+          //   backgroundImage: 'url("https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+          //   company: 'COMPANY AND NAME AND YEAR',
+          //   text: 'Conference Title Location Info',
+          //   imageStyle: {backgroundSize: 'cover'},
+          // },
+          // {
+          //   backgroundImage: 'url("https://images.unsplash.com/photo-1582192730841-2a682d7375f9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+          //   company: 'COMPANY AND NAME AND YEAR',
+          //   text: 'Conference Title Location Info',
+          //   imageStyle: {backgroundSize: 'cover'},
+          // }
         // Add more items as needed
       ];
     
@@ -49,9 +55,9 @@ const PublicSpeakingSection = ({isMediumScreen, isSmallScreen}) => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: isMediumScreen ? 3 : isSmallScreen ? 1 : 3, // Adjust the number of slides to show
+        slidesToShow: isMediumScreen ? 2 : isSmallScreen ? 1 : 2, // Adjust the number of slides to show
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
     };
 return (
@@ -61,20 +67,32 @@ return (
       flexDirection: 'column',
       justifyContent: 'center',
     }}>
-        <h1>Public Speaking Engagements.</h1>
+        <h1>Public Speaking Engagements</h1>
         <div className={styles.publicspeaking}>
-        <Slider {...slickSettings}>
-        {carouselItems.map((item, index) => (
-            <div key={index} className={styles.carousel_item}>
-            <div className={styles.background_image} style={{ backgroundImage: item.backgroundImage, ...item.imageStyle }} />
-            <div className={styles.overlay}>
-                <div className={montserrat.className}>
-                <p className={styles.company}>{item.company}</p>
+        <Slider style={{ margin: '5% 15%' }} {...slickSettings}>
+          {carouselItems.map((item, index) => {
+            const carouselContent = (
+              <div className={styles.carousel_item}>
+                <div className={styles.background_image} style={{ backgroundImage: item.backgroundImage, ...item.imageStyle }} />
+                <div className={styles.overlay}>
+                  <div className={montserrat.className}>
+                    <p className={styles.company}>{item.company}</p>
+                  </div>
+                  <p className={styles.text} dangerouslySetInnerHTML={{ __html: item.text }}></p>
                 </div>
-                <p className={styles.text}>{item.text}</p>
-            </div>
-            </div>
-        ))}
+              </div>
+            );
+
+            return item.link ? (
+              <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+                {carouselContent}
+              </a>
+            ) : (
+              <div key={index}>
+                {carouselContent}
+              </div>
+            );
+          })}
         </Slider>
         </div>
     </div>

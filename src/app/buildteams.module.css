@@ -13,6 +13,9 @@
   justify-content: center;
   font-size: 40px;
   color: white;
+  border-radius: 50%;
+  overflow: hidden; /* Prevent image overflow */
+  border: 4px solid #0d0c0c;
 }
 
 .circle_icon::before {
@@ -22,7 +25,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #c42629; /* Set the background color */
+  background-color: #f7f4f4; /* Set the background color */
   border-radius: 50%; /* Create a circular shape */
   z-index: -1; /* Move the pseudo-element below the content */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
@@ -30,6 +33,10 @@
 
 .circle_icon img {
   /* filter: grayscale(); */
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensure the image fits inside without stretching */
+  border-radius: 50%; /* Optional: keep the image circular */
 }
 
   .gridContainer_tools {

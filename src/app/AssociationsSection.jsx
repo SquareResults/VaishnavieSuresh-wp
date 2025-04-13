@@ -24,21 +24,21 @@ const AssociationsSection = ({refs}) => {
             <h1>Associations</h1>
                 <div className={montserrat.className}>
                     <div className={styles.italics}>
-                        My career has allowed me to deliver programs and services across multiple sectors
+                        {/* My career has allowed me to deliver programs and services across multiple sectors */}
                     </div>
                
                         <div className={styles.gridContainer}>
                             <div className={styles.gridItem}>
                                 <div className={styles.imageOverlay}>
-                                    <a href="https://pswmsdc.org/" target="_blank">
-                                    <img src="/assoc1_pacific_supplier.jpg" className={styles.image_logo} alt=" Pacific Southwest Minority Supplier Development Council Logo" style={{objectPosition: "top", marginTop: "20%"}}/>
+                                    <a href="https://www.ciwem.org/" target="_blank">
+                                    <img src="./ciwem7.png" className={styles.image_logo} alt="CIWEM Logo" style={{objectPosition: "top", marginTop: "20%"}}/>
                                     <div className={styles.image_layer}></div>
                                     <div className={styles.textOverlay}>
                                         <div className={styles.description}>
                                             <div className={montserrat.className}>
-                                                <div>Grand Canyon Minority Supplier Development</div>
-                                                <div style={{fontSize: '10px'}}>&#40;Formerly the Grand Canyon Minority Supplier Development Council&#41;</div>
-                                                <div><strong>the Pacific Southwest Minority Supplier Development Council</strong></div>
+                                                <div><strong></strong></div>
+                                                {/* <div style={{fontSize: '10px'}}>&#40;Formerly the Grand Canyon Minority Supplier Development Council&#41;</div> */}
+                                                {/* <div><strong>the Pacific Southwest Minority Supplier Development Council</strong></div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -46,14 +46,14 @@ const AssociationsSection = ({refs}) => {
                                 </div>  
                             </div>
                             <div className={styles.gridItem}>
-                                <a href="https://www.ana.net/" target="_blank">
+                                <a href="https://www.ieee.org/" target="_blank">
                                 <div className={styles.imageOverlay}>
-                                    <img src="/assoc2_ana.jpg" className={styles.image_logo} alt="association of national advertisers Logo" />
+                                    <img src="./IEEE.jpg" className={styles.image_logo} alt="IEEE Logo" />
                                     <div className={styles.image_layer}></div>
                                     <div className={styles.textOverlay}>
                                         <div className={styles.description}>
                                             <div className={montserrat.className}>
-                                                <div><strong>association of national advertisers</strong></div>
+                                                <div><strong></strong></div>
                                             </div>
                                         </div>
                                     </div>
@@ -61,15 +61,14 @@ const AssociationsSection = ({refs}) => {
                                 </a>
                             </div>
                             <div className={styles.gridItem}>
-                                <a href="https://www.hootsuite.com/" target="_blank">
+                                <a href="https://ieee-pes.org/" target="_blank">
                                 <div className={styles.imageOverlay}>
-                                    <img src="/assoc3_Hootsuite-Logo.png" className={styles.image_logo} alt="Hootsuite Logo" />
+                                    <img src="./PES.png" className={styles.image_logo} alt="PES Logo" />
                                     <div className={styles.image_layer}></div>
                                     <div className={styles.textOverlay}>
                                         <div className={styles.description}>
                                             <div className={montserrat.className}>
-                                                <div>Hootsuite</div>
-                                                <div><strong>Board Member social marketing product council</strong></div>
+                                                <div><strong></strong></div>
                                             </div>
                                         </div>
                                     </div>
@@ -77,14 +76,14 @@ const AssociationsSection = ({refs}) => {
                                 </a>
                             </div>
                             <div className={styles.gridItem}>
-                                <a href="https://www.azmultihousing.org/" target="_blank">
+                                <a href="https://ias.ieee.org/" target="_blank">
                                 <div className={styles.imageOverlay}>
-                                    <img src="/ama-logo.png" className={styles.image_logo} alt="AZ Multifamily Association Logo" />
+                                    <img src="./IAS.png" className={styles.image_logo} alt="IAS Logo" />
                                     <div className={styles.image_layer}></div>
                                     <div className={styles.textOverlay}>
                                         <div className={styles.description}>
                                             <div className={montserrat.className}>
-                                                <div><strong>AZ Multifamily Association</strong></div>
+                                                <div><strong></strong></div>
                                             </div>
                                         </div>
                                     </div>
@@ -92,14 +91,14 @@ const AssociationsSection = ({refs}) => {
                                 </a>
                             </div>
                             <div className={styles.gridItem}>
-                                <a href="https://www.nmhc.org/" target="_blank">
+                                <a href="https://sight.ieee.org/" target="_blank">
                                 <div className={styles.imageOverlay}>
-                                    <img src="/nmhc-logo.png" className={styles.image_logo} alt="National Multifamily Housing Council  Logo" />
+                                    <img src="./Sight.png" className={styles.image_logo} alt="Sight Logo" />
                                     <div className={styles.image_layer}></div>
                                     <div className={styles.textOverlay}>
                                         <div className={styles.description}>
                                             <div className={montserrat.className}>
-                                                <div><strong>National Multifamily Housing Council </strong></div>
+                                                <div><strong></strong></div>
                                             </div>
                                         </div>
                                     </div>

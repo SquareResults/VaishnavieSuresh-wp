@@ -17,6 +17,7 @@ import FrameworkSection from './FrameworkSection';
 import EducationSection from './EducationSection';
 import ExperienceSection from './ExperienceSection';
 import JoblistComponent from './JoblistComponent';
+import ProjectsSection from './ProjectsSection';
 import AssociationsSection from './AssociationsSection';
 import LaunchedPrograms from './LaunchedPrograms';
 import PublicSpeakingSection from './PublicSpeakingSection';
@@ -26,7 +27,7 @@ import ContactSection from './ContactSection';
 import FooterSection from './FooterSection';
 import AuthorSection from './AuthorSection';
 import clientData from './clientData.json';
-
+import RedBlackBoxes from './RedBlackBoxes';
 
 const PortfolioPage = () => {
   const [isMediumScreen, setIsMediumScreen] = useState(false);
@@ -40,17 +41,19 @@ const PortfolioPage = () => {
   const frameworkRef = useRef(null);
   const educationRef = useRef(null);
   const experienceRef = useRef(null);
+  const projectsRef = useRef(null);
   const speakingRef = useRef(null);
   const timelineRef = useRef(null);
   const recommendationsRef = useRef(null);
   const contactRef = useRef(null);
   const resumeRef = useRef(null);
   const professionalAssociationsRef = useRef(null);
-  const authorRef = useRef(null);
+  // const authorRef = useRef(null);
 
   // Refs for subsections
   const leadershipRef = useRef(null);
   const skillsetRef = useRef(null);
+  const RedBlackBoxesRef = useRef(null);
   const yearsRef = useRef(null);
   
   // const frameworkRefs = {
@@ -92,19 +95,19 @@ const PortfolioPage = () => {
       title: 'About',
       ref: aboutRef,
       subMenuItems: [
-        { id: 21, title: 'Leadership', ref: leadershipRef },
-        { id: 22, title: 'Skill Set', ref: skillsetRef },
-        { id: 23, title: 'Tools', ref: buildingteamsRef },
-        { id: 24, title: 'Management & Experience Summary', ref: buildingteamsRefs.managementsummaryRef },
+        { id: 21, title: 'Skill Set', ref: leadershipRef },
+        { id: 22, title: 'Leadership Strengths', ref: skillsetRef },
+        { id: 23, title: 'Achievements', ref: RedBlackBoxesRef },
+        { id: 24, title: 'Tools', ref: buildingteamsRef },
       ],
     },
+    // {
+    //   id: 3,
+    //   title: 'Author',
+    //   ref: authorRef,
+    // },
     {
       id: 3,
-      title: 'Author',
-      ref: authorRef,
-    },
-    {
-      id: 5,
       title: 'Education And Training',
       ref: educationRef,
     },
@@ -121,6 +124,11 @@ const PortfolioPage = () => {
     },
     {
       id: 7,
+      title: 'Projects and Relevant Courses',
+      ref: projectsRef,
+    },
+    {
+      id: 8,
       title: 'Professional Associations',
       ref: professionalAssociationsRef,
       subMenuItems: [
@@ -129,22 +137,22 @@ const PortfolioPage = () => {
       ]
     },
     {
-      id: 8,
+      id: 9,
       title: 'Timeline',
       ref: timelineRef,
     },
     {
-      id: 9,
+      id: 10,
       title: 'Recommendations',
       ref: recommendationsRef,
     },
     {
-      id: 10,
+      id: 11,
       title: 'Contact',
       ref: contactRef,
     },
     {
-      id: 11,
+      id: 12,
       title: 'Resume',
       ref: resumeRef
     }
@@ -207,21 +215,21 @@ const PortfolioPage = () => {
               <FaLinkedin />
           </a>
           </h1>
-          <h1>
+          {/* <h1>
           <a href={clientData.PortfolioPage.facebook} target="_blank" rel="noopener noreferrer">
               <FaFacebookSquare />
           </a>
-          </h1>
-          <h1>
+          </h1> */}
+          {/* <h1>
           <a href={clientData.PortfolioPage.instagram} target="_blank" rel="noopener noreferrer">
               <FaInstagramSquare />
           </a>
-          </h1>
-          <h1>
+          </h1> */}
+          {/* <h1>
           <a href={clientData.PortfolioPage.twitter} target="_blank" rel="noopener noreferrer">
               <FaSquareXTwitter />
           </a>
-          </h1>
+          </h1> */}
         </div>
       </div>
       <div className={styles.menubutton} onClick={handleShowMenuButtonClick}>
@@ -243,10 +251,13 @@ const PortfolioPage = () => {
         <section ref={yearsRef}>
           <CirclesSection/>
         </section>
+        <section ref={RedBlackBoxesRef}>
+          <RedBlackBoxes refs={RedBlackBoxesRef}/>
+        </section>
         <section ref={buildingteamsRef}>
           <BuildTeamSection refs={buildingteamsRefs}/>
         </section>
-        <section ref={authorRef}>
+        {/* <section ref={authorRef}>
           <AuthorSection refs={authorRef}/>
         </section>
         {/* <section ref={frameworkRef}>
@@ -261,7 +272,10 @@ const PortfolioPage = () => {
         <section ref={experienceRefs.managementexperiencesummaryRef}>
           <JoblistComponent />
         </section>
-        <div className='section_title' ref={professionalAssociationsRef}>professional ASSOCIATIONS.</div>
+        <section ref={projectsRef}> {/* Add this section for Projects */}
+          <ProjectsSection />
+        </section>
+        <div className='section_title' ref={professionalAssociationsRef}>professional ASSOCIATIONS</div>
         {/* <h1 style={{marginTop: '10%'}} ref={professionalAssociationsRef}>professional ASSOCIATIONS.</h1> */}
         <section ref={speakingRef}>
           <PublicSpeakingSection isMediumScreen={isMediumScreen} isSmallScreen={isSmallScreen}/>
@@ -298,7 +312,7 @@ const PortfolioPage = () => {
             flexDirection: 'column',
           }}>
               {/* <a href='./YourResume.pdf' target='_blank'><h1 style={{marginBottom: '5%'}}>Resume Download. <MdDownloadForOffline /></h1></a> */}
-              <a href={clientData.PortfolioPage.resume} target='_blank'><h1 style={{marginBottom: '5%'}}>Resume Download. <MdDownloadForOffline /></h1></a>
+              <a href={clientData.PortfolioPage.resume} target='_blank'><h1 style={{marginBottom: '5%'}}>Resume Download <MdDownloadForOffline /></h1></a>
             </div>
         </section>
         <FooterSection />

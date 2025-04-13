@@ -23,7 +23,7 @@ const AboutSection = () => {
         <div>
             <FadeInOnScroll>
              <div className='section_title'>
-                About.
+                About
             </div>
             <div className={styles.about}>    
                 
@@ -69,7 +69,7 @@ const AboutSection = () => {
                                     <div className={styles.whoami_body}>
                                         <div style={{textAlign: 'center', marginBottom: '15px'}}>
                                             <img src="/about/portfolio.png" width="60px" className={styles.whoami_icon}/>                                           
-                                           
+                                            <p>I started my journey as an engineer, but quickly realized I was more drawn to the human side of systems—how operations impact people. Now, I bridge that gap by building processes that don’t just run efficiently but empower teams. I believe the best operations don’t feel like machines—they feel like momentum.</p>
                                         </div>
                                         <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}></p>
                                     </div>
@@ -77,19 +77,38 @@ const AboutSection = () => {
                             </div>
                         </div>
 
-                        <div className={styles.gridItem}>
+            <div className={styles.gridItem}>
+                <div className={styles.whoami_box}>
+                    <h1 className={styles.section_title}><span className='blackfont'>Hobbies</span></h1>
+                    <div className={montserrat.className}>
+                        <div className={styles.whoami_body}>
+                            <div style={{ textAlign: 'center', marginTop: '-15px' }}>
+                                <img src="./Sketching.jpg" alt="outdoor" height="120px" length="120px" className={styles.whoami_icon} />
+                                <p style={{ marginBottom: '10px' }}>Sketching</p> {/* Adjusted margin-bottom */}
+                                <div></div>
+                                <img src="./Travelling.jpg" alt="Hiking" height="110px" length="110px" className={styles.whoami_icon} />
+                                <p>Travelling</p>
+                                <div></div>
+                                <img src="./Reading.jpg" alt="biking" height="100px" length="100px" className={styles.whoami_icon} />
+                                <p>Reading</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        {/* <div className={styles.gridItem}>
                             <div className={styles.whoami_box_color}>
                             <img src={clientData.About.bg_image}
                                 alt={clientData.About.bg_image_alt}
                                 className={styles.whoami_image} />
                             </div>
                             <div className={`${styles.textOverlay} ${montserrat.className}`}>
-                                {/* <img src="/about/speaker.png" width="60px" /> */}
-                                
+                                {/* <img src="/about/speaker.png" width="60px" />                                 
                               <p style={{marginBottom: '20px'}}>Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod.</p>
                               <p>Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
                             </div>
-                        </div>
+                        </div> */}
                         
                         <div className={styles.gridItem_c}>
                         <div className={styles.whoami_box}>
@@ -99,8 +118,8 @@ const AboutSection = () => {
                                         <div className={montserrat.className}>
                                         <div className={styles.body}>
                                             <img src="/about/graduationcap.png" width="60px" className={styles.whoami_icon}/>
-                                            <p style={{textAlign: 'center', lineHeight: 2.2}}>Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus.</p>
-                                            <p></p>
+                                            <p style={{textAlign: 'center', lineHeight: 2.2}}>To build agile, people-centered operations that drive efficiency, reduce waste, and scale sustainably — empowering teams to deliver consistent, high-impact results through smart systems and continuous improvement.</p>
+                                            <p style={{ textAlign: 'center', lineHeight: 2.2, fontStyle: 'italic' }}>"Because the best operations aren’t just lean — they’re human, adaptable, and built to grow".</p>
                                         </div>
                                     </div>
                                   

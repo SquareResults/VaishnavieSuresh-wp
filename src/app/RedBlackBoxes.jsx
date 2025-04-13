@@ -17,13 +17,13 @@ const RedBlackBoxes = () => {
                     <div className={styles.backgrid_a}>
                         <div className={styles.gridItem_a}>
                             <div className={styles.title}>
-                            Maximizing Revenue: Listing Precision
+                            Presented and published journal at IEEE IPRECON 2021
                             </div>
                             <div className={styles.line}></div>
                             <div className={styles.description}>
                                 <div className={montserrat.className}>
-                                <p>Drive generation of $300 million annually through direct listing management solutions.</p>
-                                <p>Ensure location information is accurate and online profiles contain robust SEO for search engines, mobile apps, and mobile navigation.</p>
+                                <p>presented the research paper, "Energy Management and Hybridization of Nissan Leaf Using Switched Capacitor Converter and Ultra-Capacitor".</p>
+                                <p></p>
                                 </div>
                             </div>
                         </div>
@@ -31,17 +31,17 @@ const RedBlackBoxes = () => {
                     <div className={styles.backgrid_r}>
                         <div className={styles.gridItem_a}>
                             <div className={styles.title}>
-                            Elevating Awareness: Targeted Persona Strategies.
+                            Increased Operational Efficiency by 25%
                             </div>
                             <div className={styles.line}></div>
                             <div className={styles.description}>
                                 <div className={montserrat.className}>
-                                Raised consumer awareness 25% by defining audience personas and aligning data-driven organic content plans with corporate marketing initiatives.
+                                Led a comprehensive process optimization initiative that cut deliverable turnaround time by 25%, strengthening collaboration and improving workflow efficiency in ARCS.
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.backgrid_b}>
+                    {/* <div className={styles.backgrid_b}>
                         <div className={styles.gridItem_b}>
                             <div className={styles.title}>
                             Fostering Growth: Engaging Employee Networks
@@ -66,7 +66,7 @@ const RedBlackBoxes = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>    
+                    </div>     */}
                 </div>
             </div>
         </div>

@@ -16,14 +16,14 @@ const Certifications = () => {
 
   return (
     <div className={styles.certifications}>
-    <h1 style={{marginTop: "20%", marginBottom: "10%"}}>Certifications.</h1>
+    <h1 style={{marginTop: "20%", marginBottom: "10%"}}>Releavant Courses</h1>
     <div className={styles.certGroupContainer}>
       <FadeInOnScroll>
       <div className={`${styles.certGroup} ${montserrat.className}`}>
         <h2><img src="/certifications/shrm.jpg"  width="150px"/></h2>
         <ul>
           <li>
-          <p style={bold}><span style={red}>HR Generalist</span> Certificate</p>            
+          <p style={bold}><span style={red}>Six Sigma – Green Belt</span> Certificate</p>            
             {/* <p>Certificate ID: 1997624 - 2295670</p>
             <p>Completed Nov 2016</p> */}
           </li>          

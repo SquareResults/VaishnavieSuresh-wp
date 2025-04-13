@@ -13,7 +13,7 @@ const ExperienceSection = () => {
     return (
         <div>
             <div className='section_title'>
-                Experience.
+                Experience
             </div>
         </div>   
     );

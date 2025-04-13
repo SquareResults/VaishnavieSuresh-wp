@@ -49,7 +49,7 @@ const ContactSection = () => {
 
     return (
         <div>
-            <div className='section_title'>Contact.</div>
+            <div className='section_title'>Contact</div>
             <div className={montserrat.className}>
                 <div className={styles.contact}>
                     <div className={styles.description}>

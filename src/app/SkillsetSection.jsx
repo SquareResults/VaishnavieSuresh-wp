@@ -118,6 +118,18 @@ const SkillsetSection = ({refs}) => {
                         </div>
                     </div>
                 </div>
+
+                <div className={styles.backgrid}>
+                        <div className={styles.gridItem_b}>
+                            <div className={styles.text}>
+                                <div className={styles.icons}>
+                                <img src="/skillsetsection/chart.png" width="80px" style={{opacity: "0.5"}}/>
+                                </div>
+                                <p>{clientData.Skillset.grid10_txt}</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 
             </div>

@@ -34,7 +34,7 @@ const JoblistComponent = () => {
             img_alt: "ARCS",
             img_style:  '{"paddingTop": "5%"}',
             jobtitle: "Associate Operations Analyst",
-            company: "Autonomy Research Center for STEAHM (ARCS – NASA-Sponsored)",
+            company: "Autonomy Research Center for STEAHM",
             dates: "Nov 2023 – May 2024",
             job_description: [
                 `Led a process optimization initiative, reducing turnaround time by 25%, enhancing team collaboration and operational efficiency.`,

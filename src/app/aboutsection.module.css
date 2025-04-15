@@ -46,6 +46,7 @@ padding: .2vw 0% .2vw 1vw;
 .about_body p {
 margin-bottom: 15px;
 line-height: 2;
+text-align: justify
 }
 
 .about_list {
@@ -60,10 +61,12 @@ align-items: center;
 /* margin-bottom: 30px; */
 margin: 30px;
 font-size: 14px;
+text-align: justify
 }
 
 .about_paragraphs p{
 margin-left: 20px;
+text-align: justify
 }
 
 .about_paragraphs_image {

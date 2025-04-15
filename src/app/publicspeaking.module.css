@@ -1,62 +1,63 @@
-/* Add this CSS to your stylesheet or inline style */
 .publicspeaking {
-  margin: 5% 10%;
-}
-.carousel_item {
-  position: relative;
-  width: 100%;
-  height: 400px; /* Adjust the height as needed */
-  overflow: hidden;
-  padding: 10px;
+  padding: 5% 5%;
+  background-color: white; /* or your preferred background */
 }
 
-.background_image {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+/* Grid layout: 3 columns with spacing */
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  justify-content: center;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 97%;
-  height: 95%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  justify-content: space-between; /* Use space-between to push items to the top and bottom */
-  padding: 0.8%;
-  margin: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.logo {
-  width: 100px; /* Adjust the logo size as needed */
-  height: auto;
-}
-
-.text {
+/* Individual speaking card */
+.card {
+  background-color: #676176;
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
   color: white;
-  font-size: 30px;
-  align-self: flex-end;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-.company {
+/* Red section title */
+.redTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #170809;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Main image inside the card */
+.cardImage {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/* White text description */
+.cardDescription {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  line-height: 1.6;
   color: white;
-  text-transform: uppercase;
-  
 }
 
-@media only screen and (max-width: 768px) {
-  .overlay {
-    width: 95%;
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .card {
+    height: auto;
   }
-}
 
-@media only screen and  (max-width: 1280px) and (min-width: 768px) {
-  .overlay {
-    width: 96%;
+  .cardImage {
+    height: 200px;
   }
 }

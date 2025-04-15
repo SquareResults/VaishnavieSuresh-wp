@@ -4,13 +4,14 @@ import Image from 'next/image';
 import { Montserrat } from 'next/font/google'
 import styles from './contact.module.css'
 import clientData from './clientData.json';
+import FadeInOnScroll from './FadeInOnScroll';
 
 const montserrat = Montserrat({
     weight: ['400', '600'],
     subsets: ['latin']
   })
 
-const PORTFOLIO_CONTACT_EMAIL = ''
+const PORTFOLIO_CONTACT_EMAIL = 'sureshvaishnavie@gmail.com'
 
 const ContactSection = () => {
     const [formData, setFormData] = useState({
@@ -26,7 +27,7 @@ const ContactSection = () => {
       const handleSubmit = async (e) => {
         e.preventDefault();
         // test mailto
-        let mailToString = `mailto:${clientData.contact.email}?cc=${formData.email}&subject=${formData.name} - Portfolio Contact Form&body=${formData.comment}`
+        let mailToString = `mailto:${PORTFOLIO_CONTACT_EMAIL}?cc=${formData.email}&subject=${formData.name} - Portfolio Contact Form&body=${formData.comment}`
         window.location = mailToString;
     
         // Send form data to your backend API
@@ -49,6 +50,7 @@ const ContactSection = () => {
 
     return (
         <div>
+        <FadeInOnScroll>
             <div className='section_title'>Contact</div>
             <div className={montserrat.className}>
                 <div className={styles.contact}>
@@ -81,6 +83,7 @@ const ContactSection = () => {
                     </form>
                 </div>
             </div>
+            </FadeInOnScroll>
         </div>
      
     );

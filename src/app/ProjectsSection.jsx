@@ -40,6 +40,7 @@ const ProjectsSection = () => {
             img_alt: "CSUN",
             img_style:  '{"paddingTop": "5%"}',
             projecttitle: "Streamlining Student Enrollment at CSUN through Lean Operations Management",
+            company: "Project",
             project_description: [
                 `Conducted data collection through surveys involving students and administrative departments.`,
                 `Created Current State Process Mapping to identify inefficiencies and bottlenecks.`,
@@ -56,7 +57,8 @@ const ProjectsSection = () => {
             img_logo: "./6.png",
             img_alt: "6 sigma",
             img_style:  '{"paddingTop": "5%"}',
-            projecttitle: "Six Sigma – Green Belt (Self-Taught / Online Learning)",
+            projecttitle: "Six Sigma – Green Belt",
+            company: "Self-Taught / Online Learning",
             project_description: [
                 `Learned DMAIC methodology and Lean principles for process optimization.`,
                 `Applied root cause analysis and value stream mapping techniques.`,
@@ -70,7 +72,8 @@ const ProjectsSection = () => {
             img_logo: "/tools_logo/M 365 dynamic.png",
             img_alt: "365 Dynamic",
             img_style:  '{"paddingTop": "5%"}',
-            projecttitle: "Microsoft Dynamic 365(ERP Systems) - SCM Module(Self-Taught/Online Learning)",
+            projecttitle: "Microsoft Dynamic 365 (ERP Systems) - SCM Module",
+            company: "Self-Taught / Online Learning",
             project_description: [
                 `Explored supply chain management functionalities in Microsoft Dynamics 365.`,
                 `Understood ERP integration for inventory, procurement, and demand planning.`,    

@@ -13,7 +13,7 @@
 
 /* Individual speaking card */
 .card {
-  background-color: #676176;
+  background-color: #0c0c0c;
   border-radius: 16px;
   padding: 30px 20px;
   text-align: center;
@@ -29,7 +29,7 @@
 .redTitle {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #170809;
+  color: #f9f9f9;
   margin-bottom: 20px;
   line-height: 1.5;
 }
